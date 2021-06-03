@@ -1,0 +1,302 @@
+
+<html>
+{% extends 'navbars.html' %}
+{% load static %}
+
+
+{% block content %}
+<head>
+	<style>
+		div{
+			font-size:22px;
+
+
+		}
+	input[type="button"]{
+	width: 40%;
+	margin: 30px auto;
+	height: 50px;
+	border-radius: 50px;
+	color: white;
+	background-color: blue;
+	border:none;
+	font-size: 30px;
+	padding-left: 0px;
+
+
+	}
+
+	</style>
+    <title>MULTIPLINTELLENGEN TEST</title>
+    <link rel="stylesheet" href="{% static 'cena.css'%}">
+    <script type="text/javascript" src="{% static 'java.js'%}"></script>
+
+</head>
+
+<body>
+	<h1 style="text-align: center; font-size: 50px;">MULTIPLINTELLENGEN TEST</h1>
+	<br>
+	<br>
+	<form name="java" id="java">
+		<div>
+			<p>1.இந்தியாவின் தேசிய வருமானத்தில் முக்கிய பங்கு வகிப்பது</p>
+			<p><input type="radio" name="question1" value="ஸ்டென்பெர்க்">A.ஸ்டென்பெர்க்</p>
+			<p><input type="radio" name="question1" value="ஸ்பியர்மேன்">B.ஸ்பியர்மேன்</p>
+			<p><input type="radio" name="question1" value="கார்ட்னர்">C.கார்ட்னர்</p>
+			<p><input type="radio" name="question1" value="தர்ஸ்டோன்">D.தர்ஸ்டோன்</p>
+
+		</div>
+		<div>
+			<p>2. உளவுத்துறை அடிப்படையில்?</p>
+			<p><input type="radio" name="question2" value="சகோதர இரட்டையர்களை விட ஒத்த இரட்டையர்கள் ஒருவருக்கொருவர் ஒத்திருக்கிறார்கள்">A.சகோதர இரட்டையர்களை விட ஒத்த இரட்டையர்கள் ஒருவருக்கொருவர் ஒத்திருக்கிறார்கள்</p>
+			<p><input type="radio" name="question2" value="சகோதரர் இரட்டையர்கள் இரட்டையர் அல்லாத உடன்பிறப்புகளை விட ஒருவருக்கொருவர் ஒத்திருக்கிறார்கள்.">B.சகோதரர் இரட்டையர்கள் இரட்டையர் அல்லாத உடன்பிறப்புகளை விட ஒருவருக்கொருவர் ஒத்திருக்கிறார்கள்.</p>
+			<p><input type="radio" name="question2" value=" தத்தெடுக்கப்பட்ட குழந்தைகள் அவர்களை விட உயிரியல் பெற்றோருடன் ஒத்தவர்கள்வளர்ப்பு பெற்றோர்.">C. தத்தெடுக்கப்பட்ட குழந்தைகள் அவர்களை விட உயிரியல் பெற்றோருடன் ஒத்தவர்கள்வளர்ப்பு பெற்றோர்.</p>
+			<p><input type="radio" name="question2" value=" மேற்கண்ட கூற்றுகள் அனைத்தும் உண்மைதான்">D. மேற்கண்ட கூற்றுகள் அனைத்தும் உண்மைதான்</p>
+
+		</div>
+		<div>
+			<p>3. திரவ நுண்ணறிவு வயதுக்கு ___ ஆகவும், படிகப்படுத்தப்பட்ட நுண்ணறிவு வயதிற்கு ___ ஆகவும் இருக்கும்.?</p>
+			<p><input type="radio" name="question3" value="அதிகரிக்கும், குறையும்">A.அதிகரிக்கும், குறையும்</p>
+			<p><input type="radio" name="question3" value="அதிகரிக்க, அப்படியே இருங்கள்">B.அதிகரிக்க, அப்படியே இருங்கள்</p>
+			<p><input type="radio" name="question3" value=" குறை, அதிகரிக்கும்">C. குறை, அதிகரிக்கும்</p>
+			<p><input type="radio" name="question3" value="குறைந்து, அப்படியே இருங்கள்">D.குறைந்து, அப்படியே இருங்கள்</p>
+
+		</div>
+		<div>
+			<p>4. உரையின் படி, ஒரு பொதுவான பல்கலைக்கழக மாணவருக்கு இதற்கான சொற்களஞ்சியம் உள்ளது?</p>
+			<p><input type="radio" name="question4" value="சுமார் 500 சொற்கள்">A.சுமார் 500 சொற்கள்</p>
+			<p><input type="radio" name="question4" value="தோராயமாக 5000 வார்த்தைகள்">B.தோராயமாக 5000 வார்த்தைகள்</p>
+			<p><input type="radio" name="question4" value="சுமார் 50,000 வார்த்தைகள்">C.சுமார் 50,000 வார்த்தைகள்</p>
+			<p><input type="radio" name="question4" value="  100,000 க்கும் மேற்பட்ட சொற்கள்">D.  100,000 க்கும் மேற்பட்ட சொற்கள்</p>
+
+		</div>
+		<div>
+			<p>5. கே .1.  72 x 96 = 6927, 58 x 87 = 7885 என்றால், 79 x 86 =?</p>
+			<p><input type="radio" name="question5" value="7689">A.7689</p>
+			<p><input type="radio" name="question5" value="8976">B.8976</p>
+			<p><input type="radio" name="question5" value="6897">C.6897</p>
+			<p><input type="radio" name="question5" value="6978">D.6978</p>
+
+		</div>
+		<div>
+			<p>6. கே .2.  3,5, 9,17,33</p>
+			<p><input type="radio" name="question6" value="​​44">A.​​44</p>
+			<p><input type="radio" name="question6" value="65">B.65</p>
+			<p><input type="radio" name="question6" value="64">C.64</p>
+			<p><input type="radio" name="question6" value="49">D.49</p>
+
+		</div>
+		<div>
+			<p>7. வ .3.  இந்தத் தொடரைப் பாருங்கள்: 36, 34, 30, 28, 24, ... அடுத்து என்ன எண் வர வேண்டும்?</p>
+			<p><input type="radio" name="question7" value="20">A.20</p>
+			<p><input type="radio" name="question7" value="22">B.22</p>
+			<p><input type="radio" name="question7" value="23">C.23</p>
+			<p><input type="radio" name="question7" value="26">D.26</p>
+
+		</div>
+		<div>
+			<p>8. வ .4.  11 (170) 16, 11 (203) 19 என்றால், 17 (?) 18 இன் மதிப்பு இருக்கும்</p>
+			<p><input type="radio" name="question8" value="200">A.200</p>
+			<p><input type="radio" name="question8" value="300">B.300</p>
+			<p><input type="radio" name="question8" value="400">C.400</p>
+			<p><input type="radio" name="question8" value=" இவை எதுவும் இல்லை">D.இவை எதுவும் இல்லை</p>
+
+		</div>
+			<div>
+			<p>9..  இவர்களில் இந்தியாவின் பண்டைய மொழியியலாளர் யார்?</p>
+			<p><input type="radio" name="question9" value="பதஞ்சலி">A.பதஞ்சலி</p>
+			<p><input type="radio" name="question9" value="டிஸ்டா பாக்சி">B.டிஸ்டா பாக்சி</p>
+			<p><input type="radio" name="question9" value="நோம் சாம்ஸ்கி">C.நோம் சாம்ஸ்கி</p>
+			<p><input type="radio" name="question9" value="க்ஷேத்ரேசா சந்திர சட்டோபாத்யாய">D.க்ஷேத்ரேசா சந்திர சட்டோபாத்யாய</p>
+
+		</div>
+		<div>
+			<p>10.இவர்களில் யார் மனித அனுபவத்தை விளக்குவதற்கான ஒரு வழியாக மொழியை உணர்கிறார்கள்?</p>
+			<p><input type="radio" name="question10" value="மானுடவியலாளர்">A.மானுடவியலாளர்</p>
+			<p><input type="radio" name="question10" value="சமூகவியலாளர்">B.சமூகவியலாளர்</p>
+			<p><input type="radio" name="question10" value="தத்துவஞானி">C.தத்துவஞானி</p>
+			<p><input type="radio" name="question10" value="இலக்கிய மாணவர்கள்">D.இலக்கிய மாணவர்கள்</p>
+
+		</div>
+		<div>
+			<p>11.3. மொழி ஒரு சமூக நிகழ்வு.</p>
+			<p><input type="radio" name="question11" value="உண்மை">A.உண்மை</p>
+			<p><input type="radio" name="question11" value="பொய்">B.பொய்</p>
+
+
+		</div>
+		<div>
+			<p>12.இந்த வார்த்தைகளில் எது ‘ஓனோமடோபாயியா’ என்ற நிகழ்வுகளை அடிப்படையாகக் கொண்டது?</p>
+			<p><input type="radio" name="question12" value="கொக்கு">A.கொக்கு</p>
+			<p><input type="radio" name="question12" value="புத்தகம்">B.புத்தகம்</p>
+			<p><input type="radio" name="question12" value="கதவு">C.கதவு</p>
+			<p><input type="radio" name="question12" value="கரும்பலகை">D.கரும்பலகை</p>
+
+		</div>
+		<div>
+			<p>13.‘மேளா - ராகம்’ வகைப்பாடு எந்தக் காலத்தில் தோன்றியது?</p>
+			<p><input type="radio" name="question13" value="வேத">A.வேத</p>
+			<p><input type="radio" name="question13" value="பண்டைய">B.பண்டைய</p>
+			<p><input type="radio" name="question13" value="இடைக்காலம்">C.இடைக்காலம்</p>
+			<p><input type="radio" name="question13" value=" நவீன">D.நவீன</p>
+
+		</div>
+		<div>
+			<p>14.‘அந்தர் - காந்தர்’ மற்றும் ‘கக்லி - நிஷாத்’ ஆகியவற்றைக் கொண்ட ‘முர்ச்சனா’ என அழைக்கப்படுகிறது</p>
+			<p><input type="radio" name="question14" value="சாந்த்ரா">A.சாந்த்ரா</p>
+			<p><input type="radio" name="question14" value="சகக்லி">B.சகக்லி</p>
+			<p><input type="radio" name="question14" value="சதானிகிரத">C.சதானிகிரத</p>
+			<p><input type="radio" name="question14" value=" பிரஸ்தர்">D.பிரஸ்தர்</p>
+
+		</div>
+		<div>
+			<p>15.மேளா’ என்பதன் ஒத்த சொற்களை அடையாளம் காணவும்:</p>
+			<p><input type="radio" name="question15" value="தத்">A.தத்</p>
+			<p><input type="radio" name="question15" value="சன்ஸ்தான்">B.சன்ஸ்தான்</p>
+			<p><input type="radio" name="question15" value="முகம்">C.முகம்</p>
+			<p><input type="radio" name="question15" value=" தத்தா">D.தத்தா</p>
+
+		</div>
+		<div>
+			<p>16. பாரதத்தின் ‘ஷாட்ஜா - கிராம்’ இலிருந்து எந்த ‘ஸ்வாரா - சம்வத்’ பெற முடியாது?</p>
+			<p><input type="radio" name="question16" value=" சா - பா">A. சா - பா</p>
+			<p><input type="radio" name="question16" value="சா - மா">B.சா - மா</p>
+			<p><input type="radio" name="question16" value="மறு - பா">C.மறு - பா</p>
+			<p><input type="radio" name="question16" value=" கா - நி">D.கா - நி</p>
+
+		</div>
+		<div>
+			<p>17.ஒருவருக்கொருவர் தொடர்பு கொள்ளும் செயல்முறைகள் தகவல்தொடர்பாளர்களைப் பொறுத்தது</p>
+			<p><input type="radio" name="question17" value=" குறிப்பு சட்டகம்">A. குறிப்பு சட்டகம்</p>
+			<p><input type="radio" name="question17" value="படைப்பாற்றல்">B.படைப்பாற்றல்</p>
+			<p><input type="radio" name="question17" value="தனக்குள்பேச்சு">C.தனக்குள்பேச்சு</p>
+			<p><input type="radio" name="question17" value=" மேலே உள்ள அனைத்தும்.">D. மேலே உள்ள அனைத்தும்.</p>
+
+		</div>
+		<div>
+			<p>18. ஒரு நபர் தனது நண்பருடன் தொலைபேசியில் தொடர்பு கொண்டால், அது பின்வருமாறு?</p>
+			<p><input type="radio" name="question18" value="ஒருவருக்கொருவர் தொடர்பு">A. ஒருவருக்கொருவர் தொடர்பு</p>
+			<p><input type="radio" name="question18" value=" வெகுஜன தொடர்பு.">B. வெகுஜன தொடர்பு.</p>
+			<p><input type="radio" name="question18" value="வெகுஜன தொடர்பு">C.வெகுஜன தொடர்பு</p>
+			<p><input type="radio" name="question18" value="  மேற்கூறிய எதுவும் இல்லை.">D. மேற்கூறிய எதுவும் இல்லை.</p>
+
+		</div>
+		<div>
+			<p>19. தகவல்தொடர்பு குறித்து பின்வரும் எந்த அறிக்கை சரியானது?விருப்பங்கள்:?</p>
+			<p><input type="radio" name="question19" value=" தகவல்தொடர்பு அனைத்து பிரச்சினைகளையும் தீர்க்க முடியும்.">A. தகவல்தொடர்பு அனைத்து பிரச்சினைகளையும் தீர்க்க முடியும்.</p>
+			<p><input type="radio" name="question19" value=" தொடர்பு திறன் கற்றுக்கொள்ளப்படவில்லை.">B. தொடர்பு திறன் கற்றுக்கொள்ளப்படவில்லை.</p>
+			<p><input type="radio" name="question19" value=" தொடர்பு மாறும், நிலையானது அல்ல.">C. தொடர்பு மாறும், நிலையானது அல்ல.</p>
+			<p><input type="radio" name="question19" value=" தொடர்பு என்பது ஒரு தகவல் பரிமாற்றம் மட்டுமே.">D. தொடர்பு என்பது ஒரு தகவல் பரிமாற்றம் மட்டுமே.</p>
+
+		</div>
+		<div>
+			<p>20. தகவல்தொடர்பு குறித்து பின்வரும் எந்த அறிக்கை சரியானது?</p>
+			<p><input type="radio" name="question20" value=" தகவல்தொடர்பு அனைத்து பிரச்சினைகளையும் தீர்க்க முடியும்.">A.தகவல்தொடர்பு அனைத்து பிரச்சினைகளையும் தீர்க்க முடியும்.</p>
+			<p><input type="radio" name="question20" value=" தொடர்பு திறன் கற்றுக்கொள்ளப்படவில்லை.">B. தொடர்பு திறன் கற்றுக்கொள்ளப்படவில்லை.</p>
+			<p><input type="radio" name="question20" value=" தொடர்பு மாறும், நிலையானது அல்ல.">C. தொடர்பு மாறும், நிலையானது அல்ல.</p>
+			<p><input type="radio" name="question20" value=" தொடர்பு என்பது ஒரு தகவல் பரிமாற்றம் மட்டுமே.">D. தொடர்பு என்பது ஒரு தகவல் பரிமாற்றம் மட்டுமே.</p>
+
+		</div>
+		<div>
+			<p>21.அந்தர் - காந்தர்’ மற்றும் ‘கக்லி - நிஷாத்’ ஆகியவற்றைக் கொண்ட ‘முர்ச்சனா’ என அழைக்கப்படுகிறது</p>
+			<p><input type="radio" name="question21" value="வானொலி">A.வானொலி</p>
+			<p><input type="radio" name="question21" value="தொலைக்காட்சி">B.தொலைக்காட்சி</p>
+			<p><input type="radio" name="question21" value="படம்">C.படம்</p>
+			<p><input type="radio" name="question21" value=" சிற்றேடு">D.சிற்றேடு</p>
+
+		</div>
+		<div>
+			<p>22.நல்ல _____ முக்கியமான பணியிட திறன்கள், அவை மேலாளர்கள், சக பணியாளர்கள் மற்றும் வாடிக்கையாளர்கள் உட்பட அனைத்து வகையான மக்களையும் தொடர்பு கொள்ள அல்லது பேச உதவும்.</p>
+			<p><input type="radio" name="question22" value=" ஒருவருக்கொருவர் திறன்கள்">A. ஒருவருக்கொருவர் திறன்கள்</p>
+			<p><input type="radio" name="question22" value=" நேர மேலாண்மை திறன்">B. நேர மேலாண்மை திறன்</p>
+			<p><input type="radio" name="question22" value=" தொழில்நுட்ப திறன்கள்">C. தொழில்நுட்ப திறன்கள்</p>
+			<p><input type="radio" name="question22" value="  நிறுவன திறன்கள்">D. நிறுவன திறன்கள்</p>
+
+		</div>
+		<div>
+			<p>23. இவை அனைத்தும் ____ க்கான நல்ல விதிகள்.நான்.  உங்கள் செயல்களிலிருந்து உங்கள் உணர்வுகளை பிரிக்கவும்</p>
+			<p><input type="radio" name="question23" value="அமைதியாய் இரு">A.அமைதியாய் இரு</p>
+			<p><input type="radio" name="question23" value="நீங்கள் பதிலளிக்க அமைதியாக இருக்கும் வரை காத்திருங்கள்">B.நீங்கள் பதிலளிக்க அமைதியாக இருக்கும் வரை காத்திருங்கள்</p>
+			<p><input type="radio" name="question23" value="உங்கள் உணர்ச்சிகளை எழுதுங்கள்">C.உங்கள் உணர்ச்சிகளை எழுதுங்கள்</p>
+			<p><input type="radio" name="question23" value="நேர்மறையாக இருங்கள்">D.நேர்மறையாக இருங்கள்</p>
+
+		</div>
+		<div>
+			<p>24.உங்கள் உணர்ச்சிகளை எவ்வாறு கட்டுப்படுத்துவது என்பதை அறிய, உங்கள் உணர்ச்சிகளை உங்கள் ______ இலிருந்து பிரிக்க கற்றுக்கொள்ள வேண்டும்.?</p>
+			<p><input type="radio" name="question24" value="எண்ணங்கள்">A.எண்ணங்கள்</p>
+			<p><input type="radio" name="question24" value="செயல்கள்">B.செயல்கள்</p>
+			<p><input type="radio" name="question24" value="ஆசைகள்">C.ஆசைகள்</p>
+			<p><input type="radio" name="question24" value="கோபம்">D.கோபம்</p>
+
+		</div>
+		<div>
+			<p>25. சமூகமயமாக்குவது எப்போது சரியானது என்பதை அறிந்து கொள்வது அவசியம்.  பின்வரும் சூழ்நிலைகள் வேலையில் பழகுவது சரியா என்பதற்கு எடுத்துக்காட்டுகள்.  ஒரு எடுத்துக்காட்டு பட்டியலில் இல்லை.  எந்த ஒன்று?</p>
+			<p><input type="radio" name="question25" value=" இடைவேளையின் போது">A. இடைவேளையின் போது</p>
+			<p><input type="radio" name="question25" value=" கூட்டம் தொடங்க காத்திருக்கிறது">B. கூட்டம் தொடங்க காத்திருக்கிறது</p>
+			<p><input type="radio" name="question25" value="ஒரு சக ஊழியர் தனது மேசையில் வேலை செய்வதை நீங்கள் காணும்போது">C.ஒரு சக ஊழியர் தனது மேசையில் வேலை செய்வதை நீங்கள் காணும்போது</p>
+			<p><input type="radio" name="question25" value=" ஒரு மண்டபத்தில் யாரையாவது கடந்து செல்வது">D. ஒரு மண்டபத்தில் யாரையாவது கடந்து செல்வது</p>
+
+		</div>
+		<div>
+			<p>26.அக்கறையற்ற பிரபஞ்சத்திற்கு எதிரான தோல்வியுற்ற போராக வாழ்க்கையின் உணர்வு.?</p>
+			<p><input type="radio" name="question26" value=" யதார்த்தவாதம்">A. யதார்த்தவாதம்</p>
+			<p><input type="radio" name="question26" value="காதல்">B.காதல்</p>
+			<p><input type="radio" name="question26" value="இயற்கைவாதம்">C.இயற்கைவாதம்</p>
+			<p><input type="radio" name="question26" value=" மேற்கூறிய எதுவும் இல்லை">D. மேற்கூறிய எதுவும் இல்லை</p>
+
+		</div>
+		<div>
+			<p>27. இயற்கையின் கருப்பொருள் எதுவல்ல?</p>
+			<p><input type="radio" name="question27" value=" தீர்மானித்தல்">A. தீர்மானித்தல்</p>
+			<p><input type="radio" name="question27" value=" விரிவாக">B. விரிவாக</p>
+			<p><input type="radio" name="question27" value=" சமூக சூழல்">C. சமூக சூழல்</p>
+			<p><input type="radio" name="question27" value=" வறுமை">D. வறுமை</p>
+
+		</div>
+		<div>
+			<p>28.  இயற்கை சக்திகள் மட்டுமே பிரபஞ்சத்திற்கு காரணம்.</p>
+			<p><input type="radio" name="question28" value=" உண்மை">A. உண்மை</p>
+			<p><input type="radio" name="question28" value=" பொய்">B. பொய்</p>
+
+		</div>
+		<div>
+			<p>29.  இயற்கையின் வல்லுநர்கள் நபரின் எதிர்வினை கடவுளால் முன்னரே தீர்மானிக்கப்பட்டதாக நம்பினர்?</p>
+			<p><input type="radio" name="question29" value=" உண்மை">A. உண்மை</p>
+			<p><input type="radio" name="question29" value=" பொய்">B. பொய்</p>
+
+		</div>
+		<div>
+			<p>30.கே. இந்த நபர்கள் சொற்களைப் போன்றவர்கள் மற்றும் தாளம், மீட்டர், ஒலி அல்லது சொற்களின் பொருளை நோக்கி ஈர்க்கிறார்கள்?</p>
+			<p><input type="radio" name="question30" value="  மொழியியல் நுண்ணறிவு">A.  மொழியியல் நுண்ணறிவு</p>
+			<p><input type="radio" name="question30" value="  வாய்வழி நுண்ணறிவு">B.  வாய்வழி நுண்ணறிவு</p>
+
+		</div>
+		<div>
+			<p>31.  இயற்கையான புத்திசாலித்தனம் கொண்ட ஒருவர் ....?</p>
+			<p><input type="radio" name="question31" value="  கார்களை விரும்புகிறது">A.  கார்களை விரும்புகிறது</p>
+			<p><input type="radio" name="question31" value="   நன்றாக அலங்கரிக்கிறது">B. நன்றாக அலங்கரிக்கிறது</p>
+			<p><input type="radio" name="question31" value="  தாவரங்களுடன் நன்றாக வேலை செய்கிறது">C.  தாவரங்களுடன் நன்றாக வேலை செய்கிறது</p>
+			<p><input type="radio" name="question31" value="  குழந்தைகளுடன் நன்றாக வேலை செய்கிறது.">D.  குழந்தைகளுடன் நன்றாக வேலை செய்கிறது.</p>
+
+		</div>
+		<div>
+			<p>32. நான் இருத்தலியல் புத்திசாலி, நான் யாரோ?</p>
+			<p><input type="radio" name="question32" value="   கணிதத்தில் மிகவும் நல்லது">A. கணிதத்தில் மிகவும் நல்லது</p>
+			<p><input type="radio" name="question32" value="    நாம் ஏன் வாழ்கிறோம் என்று நிறைய கேளுங்கள்">B.  நாம் ஏன் வாழ்கிறோம் என்று நிறைய கேளுங்கள்</p>
+			<p><input type="radio" name="question32" value="  வளரும் தாவரங்களுக்கு பச்சை கட்டைவிரல் உள்ளது">C. வளரும் தாவரங்களுக்கு பச்சை கட்டைவிரல் உள்ளது</p>
+			<p><input type="radio" name="question32" value="   மற்றவர்கள் தங்கள் வழியைப் பின்பற்ற முடியும்.">D. மற்றவர்கள் தங்கள் வழியைப் பின்பற்ற முடியும்.</p>
+
+		</div>
+
+
+		<input type="button" name="" value="SUBMIT" id="button" onclick="check()">
+	</form>
+
+<h1 id="result"></h1>
+
+
+
+</body>
+
+</html>
+{% endblock %}

@@ -1,0 +1,15 @@
+
+{% extends 'navbars.html' %}
+
+
+{% block content %}
+<h1 style="color: blue" >எட்டு வகையான புலனாய்வு கோட்பாடு</h1>
+{% for i in data %}
+
+
+<h1>{{i.heading}}</h1>
+<pre>
+    {{i.code}}
+</pre>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>STAR</title>
+	   <link rel="stylesheet"href="{% static 'style.css' %}" >
+</head>
+<body>
+	{% include 'navbar.html' %}
+	<div class="container">
+		<h1>WELCOME TO MULTIPLEINTELLIGENCE</h1>
+		<h2> made by </h2>
+		<h2>VENKATESH.T</h2>
+
+		<h1>just click and start to learn</h1>
+
+		<a href="{% url 'bdaloginpage'%}">Get Started</a>
+
+
+	</div>
+
+</body>
+</html>

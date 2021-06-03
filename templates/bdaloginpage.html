@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>RAGUL LOGINPAGE</title>
+	<h1 style="color : #bbe6fa">PLEASE LOGIN THIS PAGE!</h1>
+	<link rel="stylesheet" href= "{% static 'bdaloginpage.css' %}"/>
+</head>
+<body>
+	<div class="container">
+
+	<form class="" action="" method="post">
+		{% csrf_token %}
+		<p>{{id}}</p>
+		<input type="text" name="userid" placeholder="userid">
+		<p>{{password}}</p>
+		<input type="password" name="userpassword" placeholder="Enter the password">
+		<input type="submit" name="" value="LOGIN">
+	</form>
+	</div>
+
+</body>
+</html>

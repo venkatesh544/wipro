@@ -1,0 +1,24 @@
+body{
+margin:0px;
+ 
+
+}
+
+ul{
+  text-align: center;
+  margin:0px;
+  background-color: blue;
+}
+
+li{
+  list-style: none;
+  margin-right: 200px;
+  font-size: 50px;
+  display: inline;
+  color: white;
+}
+
+.navbar{
+  background-color: white;
+  color: blue;
+}

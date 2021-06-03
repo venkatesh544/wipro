@@ -1,0 +1,30 @@
+body{
+  margin: 0px;
+  font-family: Times New Roman;
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+.container{
+  width: 60%;
+  margin: 10px auto;
+  color: #bbe6fa;
+  text-align: center;
+}
+h1{
+  margin-bottom: 200px;
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  background-color: #bbe6fa;
+  padding: 15px 200px;
+  width: 250%;
+  border-radius: 100px;
+  font-size: 40px;
+  margin-top: 150px;
+
+}

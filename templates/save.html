@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% extends 'navbars.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<br>
+<html>
+<head>
+<title>website</title>
+
+<style >
+img{
+	width:500px;
+	height: 390px;
+}
+a{
+
+  padding: 25px;
+
+}
+</style>
+</head>
+<body style="text-align:center;">
+<div class="row">
+	<div class="column">
+		<br>
+{% if image %}
+{% for i in image %}
+
+
+		<td><a target="_blank" href="/media/{{i.image}}"></td>
+		 <td><img src="/media/{{i.image}}"></a></td>
+
+
+{% endfor %}
+{% endif %}
+</div>
+</div>
+</body>
+</html>
+{% endblock %}

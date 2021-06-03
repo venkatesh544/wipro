@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+ 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MENU</title>
+    <link rel="stylesheet" href= "{% static 'rock.css' %}">
+</head>
+<body bgcolor="#a7ff83">
+<nav>
+    <a class="title" href="{% url 'sopan:home' %}">MULTIPLEINTELLIGENCE LOGO BLOG</a>
+    <a href="{% url 'sopan:python' %}">MULTIPLEINTELLIGENCE THEROY</a>
+    <a href="{% url 'sopan:java' %}">MULTIPLEINTELLIGENCE TEST</a>
+    <a href="{% url 'sopan:save' %}">PHOTOS</a>
+    <a href="{% url 'sopan:intel' %}">CAREER BASED MI THEROY</a>
+</nav>
+ {% block content %}
+
+ {% endblock %}
+</body>
+</html>
